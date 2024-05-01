@@ -1,6 +1,6 @@
 # Define header
 header <- shinydashboard::dashboardHeader(
-  title = 'Tools and Topics for Anticolonial Environmental Studies', titleWidth = 450)
+  title = 'Tools and Topics for Anticolonial Environmental Studies', titleWidth = 530)
 
 # Define sidebar 
 sidebar <- shinydashboard::dashboardSidebar(disable = TRUE)
