@@ -1,0 +1,15 @@
+.skin-blue .main-header .logo {
+  background-color: #3e5c76;
+}
+
+.skin-blue .main-header .logo:hover {
+  background-color: #3e5c76;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #3e5c76;
+}
+
+body {
+  font-size: 15px;
+}
