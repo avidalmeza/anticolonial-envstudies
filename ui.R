@@ -1,44 +1,48 @@
-# Define header
 header <- shinydashboard::dashboardHeader(
-  title = "Tools and Topics for Anticolonial Environmental Studies", titleWidth = 530)
+  title = "Tools and topics for anticolonial environmental studies", titleWidth = 530)
 
-# Define sidebar 
 sidebar <- shinydashboard::dashboardSidebar(disable = TRUE)
 
-# Define body
 body <- shinydashboard::dashboardBody(
-  # Link stylesheet
-  includeCSS(here::here("www", "styles.css")),
-  # Add about content
+  
+  includeCSS(here::here("www", "styles.css")), # Link stylesheet
+  
   fluidRow(
     column(width = 8,
            box(width = NULL,
                includeMarkdown(here::here("text", "about.md")))
-           ),
+    ),
     column(width = 4,
            box(width = NULL,
                includeMarkdown(here::here("text", "contact.md")))
     )),
+  
   fluidRow(
-    # Define sidebar panel
+    
+    # Set sidebar panel
     column(width = 3,
-           # Add checkboxGroupInput
+           
+           # checkboxGroupInput
            box(width = NULL, 
-               shiny::checkboxGroupInput("type", label = "Select Type(s):",
-                                         choices = unique(entries$type),
-                                         selected = c("Web Text", "Journal Article", "Video", "Book", "Audio", "Writing Reference"))), 
-           # Add sliderInput
+               checkboxGroupInput("type", label = "Select type(s):",
+                                  choices = unique(entries$type),
+                                  selected = c(unique(entries$type)))
+               ),
+           
+           # sliderInput
            box(width = NULL, 
-               sliderInput("year", label = "Select Year(s):",
+               sliderInput("year", label = "Select year(s):",
                            min = min(entries$year), max = max(entries$year),
-                           value = c(2000, 2023), sep = ""))
+                           value = c(min(entries$year), max(entries$year)), sep = "")
+               )
            ),
-    # Define main panel
+    
+    # Set main panel
     column(width = 9,
            box(width = NULL, DT::DTOutput("mytable", width = "100%"))
            )
+    
     )
   )
 
-# Define user interface
 shinydashboard::dashboardPage(header, sidebar, body)

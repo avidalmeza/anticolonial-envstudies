@@ -1,4 +1,4 @@
-# Tools and Topics for Anticolonial Environmental Studies
+# Tools and topics for anticolonial environmental studies
+This non-exhaustive database of anticolonial environmental studies includes diverse learning materials such as peer-reviewed papers, podcasts, talks, and articles. Originally compiled for the University of Puget Sound's Environmental Studies & Sciences department by Alessandra Vidal Meza and Danny Kedansky in May 2022, it was presented at the University of Georgia's Integrative Conservation Conference in 2024.
 
 ![](images/anticolonial-envstudies.png)
-[Tools and Topics for Anticolonial Environmental Studies](https://avidalmeza.shinyapps.io/anticolonial-envstudies/) is a nonexhaustive repository and includes several learning materials, like peer-reviewed papers, podcasts, talks, and articles. It was initially compiled for the University of Puget Sound by Alessandra Vidal Meza and Danny Kedansky in May 2022. Presented at the University of Georgia's Integrative Conservation Conference 2024.
