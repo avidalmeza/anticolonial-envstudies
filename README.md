@@ -4,11 +4,11 @@ Anticolonial voices in environmental studies coursework are often homogenized, u
 
 ![](images/anticolonial-envstudies.png)
 
-## Contributors 
+## Contributors
 This resource was initially compiled for the Department of Environmental Studies & Sciences at the University of Puget Sound in May 2022.
 
 - Alessandra Vidal Meza, University of Puget Sound
 - Daniel Kedansky, University of Puget Sound
 
-## Acknowledgments 
-Peter Hodum, Rachel DeMotts, and Andrew Strobel contributed to conceptualization.
+## Acknowledgments
+We would like to acknowledge Peter Hodum, Rachel DeMotts, and Andrew Strobel for helpful conversations about conceptualization.
